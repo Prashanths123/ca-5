@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .mainpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #bfc1d9;
+    color: #000000;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px; 
+    height: 40px; 
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem; 
+  }
+
+  .navbar {
+    box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    align-items: center;
+    padding: 0 20px;
+    width: 99vw;
+    height: 9vh;
+  }
+  
+  .search {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    font-size: 14px;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+  }
+  h4 {
+    max-width: 200px;
+    white-space: nowrap;
+  }
+  
+  .Books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .Books div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid #000000;
+    box-shadow: 0px 5px 5px 0px rgba(176, 154, 154, 0.25);
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    backdrop-filter: blur(20.55px);
+  }
+  
+  .Books img {
+    width: 14vw;
+    height: 40vh;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  
+  span {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    justify-content: center;
+  }
+  
+  .cost {
+    color: rgb(0, 2, 128);
+  }
+
+  .results {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
